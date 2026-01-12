@@ -108,7 +108,7 @@ export const useScheduleForEvent = ({
     username: usernameFromStore ?? username,
     eventSlug: eventSlugFromStore ?? eventSlug,
     eventId,
-    timezone: useBookerTimezone ? timezone : undefined,
+    timezone,
     selectedDate,
     dayCount,
     rescheduleUid,
