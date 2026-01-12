@@ -3,23 +3,57 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~/*": ["/*"],
-      "@/*": ["./src/*"],
-      "@calcom/lib": ["../../lib"],
-      "@calcom/lib/*": ["../../lib/*"],
-      "@calcom/features": ["../../features"],
-      "@calcom/features/*": ["../../features/*"],
-      "@calcom/prisma": ["../../prisma"],
-      "@calcom/dayjs": ["../../dayjs"],
-      "@calcom/prisma/*": ["../../prisma/*"],
-      "@calcom/dayjs/*": ["../../dayjs/*"],
-      "@calcom/platform-constants": ["../constants/index.ts"],
-      "@calcom/platform-types": ["../types/index.ts"],
-      "@calcom/platform-utils": ["../constants/index.ts"],
-      "@calcom/trpc": ["../../trpc"],
-      "@calcom/app-store": ["../../app-store"],
-      "@calcom/app-store/*": ["../../app-store/*"],
-      "@calcom/trpc/*": ["../../trpc/*"]
+      "~/*": [
+        "/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+      "@calcom/lib": [
+        "../../lib"
+      ],
+      "@calcom/lib/*": [
+        "../../lib/*"
+      ],
+      "@calcom/features": [
+        "../../features"
+      ],
+      "@calcom/features/*": [
+        "../../features/*"
+      ],
+      "@calcom/prisma": [
+        "../../prisma"
+      ],
+      "@calcom/dayjs": [
+        "../../dayjs"
+      ],
+      "@calcom/prisma/*": [
+        "../../prisma/*"
+      ],
+      "@calcom/dayjs/*": [
+        "../../dayjs/*"
+      ],
+      "@calcom/platform-constants": [
+        "../constants/index.ts"
+      ],
+      "@calcom/platform-types": [
+        "../types/index.ts"
+      ],
+      "@calcom/platform-utils": [
+        "../constants/index.ts"
+      ],
+      "@calcom/trpc": [
+        "../../trpc"
+      ],
+      "@calcom/app-store": [
+        "../../app-store"
+      ],
+      "@calcom/app-store/*": [
+        "../../app-store/*"
+      ],
+      "@calcom/trpc/*": [
+        "../../trpc/*"
+      ]
     },
     "resolveJsonModule": true,
     "outDir": "./dist"

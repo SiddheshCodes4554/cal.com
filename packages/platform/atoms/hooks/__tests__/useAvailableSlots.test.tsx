@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { renderHook, waitFor } from "@testing-library/react";
-import { vi } from "vitest";
+import React from "react";
+import { vi, describe, it, expect, beforeEach } from "vitest";
 
 import { SUCCESS_STATUS } from "@calcom/platform-constants";
 
