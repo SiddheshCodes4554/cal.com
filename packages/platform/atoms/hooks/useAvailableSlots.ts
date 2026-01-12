@@ -30,6 +30,7 @@ export const useAvailableSlots = ({
       rest.skipContactOwner,
       rest.teamMemberEmail,
       rest.rrHostSubsetIds,
+      rest.timeZone,
     ],
     queryFn: () => {
       return http
